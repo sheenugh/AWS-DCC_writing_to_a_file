@@ -3,6 +3,13 @@
 
 # ========= PSEUDO CODE =========
 # - Code for 'open'
+file = open('user_info.txt', 'w')
+
 # - Variable for asking the user's name
+asking_user = input("Input Your Name:")
+
 # - Code for displaying the inputted information
+file.write(asking_user)
+
 # - Code for closing the file
+file.close()
